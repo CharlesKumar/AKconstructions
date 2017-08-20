@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Saira:500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Saira:500');
+
+// color variables
+$darkIndigo: #39265e;
+$darkIndigoInverse: aliceblue;
+$marun: #c73016;
+$orangy: #e7a9a9;
+$marunInverse: #fff;
+.dark-indigo{
+    color: #39265e;;
+}
+
+html, body{
+    margin: 0 auto;
+    color: $marun;
+    background-color: $marunInverse;
+    font-family: "Quicksand", serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    font-family: "Saira", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 3em;
+}
+
+h4{
+    font-size: 2em;
+}
+
+h5{
+    font-size: 1em;
+}
+
+p{
+    text-indent: 50px;
+}
+
+.cover-caption{
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    padding: 30px;
+    width: 40%;
+}
+
+.cover-caption p{
+    font-weight: bold;
+}
+
+.nav-lg .nav-item{
+    transition: all .8s;
+}
+
+.nav-lg{
+    flex-direction: row;
+}
+
+footer{
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+footer .copyright{
+    margin-right: 15px;
+    bottom: 5px;
+    right: 10px;
+}

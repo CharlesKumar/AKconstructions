@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px){
+    footer{
+        min-height: 500px;
+    }
+
+    footer .copyright{
+        float: left;
+    }
+
+    .img-full-cover{
+        margin-top: 100px;
+    }
+
+    .cover-caption{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .cover-caption h4{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+       .cover-caption{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .cover-caption p{
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .cover-caption{
+        width: 50%;
+        top: 0;
+        left: 0;
+    }
+
+    .img-adaptive{
+        @include phone-img;
+    }
+
+    .cover-caption p{
+        line-height: 1.8;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .img-full-cover{
+        height: 500px;
+    }
+}
+
+
+@media screen  and (min-width: 1201px){
+     .lg-font{
+        font-size: 150%;
+    }
+}

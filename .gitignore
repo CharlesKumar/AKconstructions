@@ -1,8 +1,7 @@
 ### My Custom Ignore List ###
 app/css/style.css
 app/css/print.css
-
-
+Gulp-Sass-Starter-Kit
 
 # Created by https://www.gitignore.io/api/node,osx,windows
 

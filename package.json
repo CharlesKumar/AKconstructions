@@ -1,33 +1,49 @@
 {
-  "name": "gulpsass",
-  "version": "1.0.0",
-  "description": "HTML and SASS template",
+  "name": "akconstructions",
+  "version": "0.1.0",
+  "description": "a website for akconstructions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markomitranic/ZentZent.git"
+    "url": "git+https://github.com/CharlesKumar/AKconstructions.git"
   },
-  "author": "Marko Mitranic <marko.mitranic@gmail.com> (https://github.com/markomitranic)",
-  "license": "ISC",
+  "keywords": [
+    "akconstructions",
+    "trichy",
+    "thanjavur",
+    "civil",
+    "office",
+    "rooms",
+    "hall",
+    "exterior"
+  ],
+  "author": "charles kumar",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markomitranic/ZentZent/issues"
+    "url": "https://github.com/CharlesKumar/AKconstructions/issues"
   },
-  "homepage": "https://github.com/markomitranic/ZentZent#readme",
+  "homepage": "https://github.com/CharlesKumar/AKconstructions#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.2",
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.18.12",
+    "find-node-modules": "^1.0.4",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-babel": "^6.1.2",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1",
+    "gulp-sass": "^3.*.*",
     "gulp-sourcemaps": "^2.2.0",
-    "gulp-uglify": "^2.1.2"
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "spectre.css": "^0.3.*"
   }
 }

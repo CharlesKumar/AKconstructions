@@ -13,6 +13,7 @@ var scssInput = ['scss/style.scss'],
 // Start everything up.
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var aprefixer = require('autoprefixer');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
@@ -20,7 +21,10 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var browserSync = require('browser-sync').create();
+var findNodeModules = require('find-node-modules');
 
+findNodeModules();
+//=> ['node_modules', '../../node_modules']
 
 // Watch SASS.
 gulp.task('sass', function() {
@@ -34,6 +38,11 @@ gulp.task('sass', function() {
         .pipe(browserSync.reload({
             stream: true
         }))
+});
+
+gulp.task('check', function(){
+    var info = aprefixer().info();
+console.log(info);
 });
 
 gulp.task('domainScripts', function() {
